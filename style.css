@@ -1,0 +1,64 @@
+.horizontal-spaced-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.person-icon {
+    width: 5em;
+}
+
+.person-card {
+    margin: 1em 0em 1em 1em;
+}
+
+.column-card {
+    aspect-ratio: 4 / 2;
+}
+
+.mask {
+    height: inherit;
+}
+
+.top-right-button {
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.top-right-button img {
+    filter: invert(1);
+    width: 32px;
+    height: 32px;
+}
+
+.order-box {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.fill-width {
+    width: 100%;
+}
+
+.bold-label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.bold-label * {
+    font-weight: normal;
+}
+
+.submit-btn {
+    margin-top: 1em;
+}
+
+.important-column {
+    width: 80%;
+}
